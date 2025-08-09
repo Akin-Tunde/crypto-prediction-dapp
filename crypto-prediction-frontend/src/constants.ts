@@ -5,8 +5,8 @@ export const PREDICTION_MARKET_CONTRACT_ADDRESSES: { [chainId: number]: `0x${str
   8453: '0xEcfAC045A72E8D55eB131F4eAFa6b53E5eEC6315',      // Base Mainnet
   56: '0x696629321C9Aa6A9a446B3447E4887169EB3e0d3',          // BSC Mainnet
   10: '0x70f4Ea0cc5D0a8f153B5808B23c712FC3C60dF99',      // Optimism Mainnet
-  42220: '0x739c7C73Be569fEd06621BF007bd4505Fd1F3fD8',       // Celo Mainnet
-  42161: '0x739c7C73Be569fEd06621BF007bd4505Fd1F3fD8',   // Arbitrum One
+  42220: '0x739c7c73be569fed06621bf007bd4505fd1f3fd8',       // Celo Mainnet
+  42161: '0x739c7c73be569fed06621bf007bd4505fd1f3fd8',   // Arbitrum One
   // Add testnet chain IDs and addresses if needed
 };
 
