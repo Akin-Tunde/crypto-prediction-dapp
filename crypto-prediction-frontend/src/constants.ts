@@ -8,6 +8,7 @@ export const PREDICTION_MARKET_CONTRACT_ADDRESSES: { [chainId: number]: `0x${str
   42220: '0x739c7c73be569fed06621bf007bd4505fd1f3fd8',       // Celo Mainnet
   42161: '0x739c7c73be569fed06621bf007bd4505fd1f3fd8',   // Arbitrum One
   // Add testnet chain IDs and addresses if needed
+7777777: "0xf7c74A86A5328D13856DD69248576F53a7e2488A"
 };
 
 // 2. Paste the ABI you copied from Remix
