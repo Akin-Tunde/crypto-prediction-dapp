@@ -1,15 +1,19 @@
 // src/app/providers.tsx
-'use client'; // This is a client-side only file
+'use client'; 
 
 import { WagmiProvider, createConfig, http } from 'wagmi';
-import { sepolia } from 'wagmi/chains';
+import { base, bsc, optimism, celo, arbitrum } from 'wagmi/chains';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
 // 1. Set up the chains and transports
 const config = createConfig({
-  chains: [sepolia], // You deployed to Sepolia
+  chains: [base, bsc, optimism, celo, arbitrum],
   transports: {
-    [sepolia.id]: http(), // Use a public RPC for the chain
+    [base.id]: http(),
+    [bsc.id]: http(),
+    [optimism.id]: http(),
+    [celo.id]: http(),
+    [arbitrum.id]: http(),
   },
 });
 
