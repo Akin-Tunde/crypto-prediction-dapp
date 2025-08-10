@@ -16,4 +16,3 @@ The dApp consists of three main components:
 -   **Backend Aggregation:** An API to view market statistics across all chains at once.
 -   **Automated Resolution:** The Python backend includes a script to automatically resolve markets when their resolution time is reached.
 
-## Project Structure
