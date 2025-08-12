@@ -1,4 +1,4 @@
-# Multi-Chain Crypto Prediction Market dApp
+# Multi-Chain Crypto Prediction Market 
 
 This project is a decentralized prediction market where users can bet on the future price of cryptocurrencies. It is deployed across five EVM-compatible blockchains: **Base, BNB Smart Chain, Optimism, Celo, and Arbitrum**.
 
