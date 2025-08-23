@@ -14,5 +14,5 @@ The dApp consists of three main components:
 -   **Live Market Data:** View real-time totals for "UP" and "DOWN" betting pools.
 -   **Proportional Payouts:** Winners receive a share of the total prize pool proportional to their bet.
 -   **Backend Aggregation:** An API to view market statistics across all chains at once.
--   **Automated Resolution:** The Python backend includes a script to automatically resolve markets when their resolution time is reached.
+-   **Automated Resolution:** The Python backend includes a script to automatically resolve markets when their resolution time is reached
 
