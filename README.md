@@ -7,7 +7,7 @@ The dApp consists of three main components:
 2.  **Next.js Frontend:** A web interface built with Next.js, React, `wagmi`, and `viem` for interacting with the smart contracts on any of the supported chains.
 3.  **Python Backend:** A FastAPI server that aggregates data from all chains and can automate tasks like market resolution.
 
-## Features
+## Features Used 
 
 -   **Multi-Chain Support:** Connect and place bets on any of the five supported networks.
 -   **Wallet Integration:** Uses `wagmi` for seamless connection with browser wallets like MetaMask.
